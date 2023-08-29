@@ -152,7 +152,6 @@ ul {
   text-transform: capitalize;
   display: inline-block;
   margin-top: 0.6rem;
-  margin-left: 13.5rem;
   margin-bottom: 0.5rem;
 }
 .btn:hover {
@@ -197,6 +196,9 @@ ul {
   box-shadow: var(--shadow-2);
   padding: 2rem 2.5rem;
   margin: 3rem auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .form-label {
   display: block;
