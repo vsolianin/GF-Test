@@ -41,14 +41,14 @@ const App = () => {
       } 
 
       if (n % 3 === 0) {
-        console.log('Geste');
-        const text = 'Geste';
+        console.log('Gest');
+        const text = 'Gest';
         return text;
       }
 
       if (n % 5 === 0) {
-        console.log('Forme');
-        const text = 'Forme'
+        console.log('Form');
+        const text = 'Form'
         return text;
       } 
     };
