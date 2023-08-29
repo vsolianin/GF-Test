@@ -23,8 +23,8 @@ const App = () => {
     const gestFormComparasion = (n) => {
 
       if (n < -1000 || n > 1000) {
-        console.log('Entrez un nombre entre 1000 et 1000');
-        const text = 'Entrez un nombre entre 1000 et 1000'
+        console.log('Entrez un nombre entre -1000 et 1000');
+        const text = 'Entrez un nombre entre -1000 et 1000'
         return text;
       }
 
