@@ -56,10 +56,10 @@ const App = () => {
   return (
     <form className="form" onSubmit={handleSubmit}>
       
-      <label className="form-label" htmlFor="number"> Number: </label><br />
+      <label className="form-label" htmlFor="number"> Nombre: </label><br />
       <input className="form-input" type="text" id="number" name="number" value={formData.number} onChange={handleChange} />
     
-      <button className="btn" type="submit">Submit</button>
+      <button className="btn" type="submit">Soumettre</button>
       <p>{frase}</p>
     </form>
 
